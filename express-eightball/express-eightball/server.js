@@ -44,6 +44,7 @@ app.get('/eightball', (req, res) => {
 });
 
 app.post('/eightball', (req, res) => {
+	localStorage.clear();
 	console.log(req.body.question);
 	var question = {question: req.body.question};
 	var answer = '';
