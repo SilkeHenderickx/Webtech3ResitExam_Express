@@ -1,0 +1,15 @@
+html {
+  font-size: 20px;
+}
+
+.post {
+  margin-top: 0.5em;
+}
+
+.post > span:first-child {
+  font-weight: bold
+}
+
+.post > span:first-child:after {
+  content:':'
+}
